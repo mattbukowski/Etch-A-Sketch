@@ -5,12 +5,15 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 960px;
-    height: auto;
+    width: 1000px;
+    height: 780px;
 }
 
 .div {
     background-color: pink;
     border: solid;
-    flex: 1 0 auto;
+    flex: 1 0 5.7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
