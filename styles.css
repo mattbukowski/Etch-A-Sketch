@@ -1,5 +1,8 @@
 body {
     box-sizing: border-box;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
 }
 
 .container {
@@ -10,7 +13,7 @@ body {
 }
 
 .div {
-    background-color: pink;
+    background-color: #CCC;
     border: solid;
     flex: 1 0 5.7%;
     display: flex;
