@@ -17,5 +17,13 @@ function createDivs (){
 
 const btn = document.querySelector("button")
 btn.addEventListener("click", e => {
+    removeDivs()
     createDivs ()
 })
+
+function removeDivs() {
+    const divsToRemove = document.querySelector(".container");
+    while (divsToRemove.hasChildNodes()) {
+        divsToRemove.removeChild(divsToRemove.firstChild);
+    }
+  }
