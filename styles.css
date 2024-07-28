@@ -1,5 +1,4 @@
 body {
-    box-sizing: border-box;
     display: flex;
     flex-direction:row-reverse;
     justify-content: space-between;
@@ -7,16 +6,12 @@ body {
 
 .container {
     display: flex;
-    flex-wrap: wrap;
-    width: 1000px;
-    height: 780px;
+    border: solid;
+
 }
 
 .div {
     background-color: #CCC;
     border: solid;
-    flex: 1 0 5.7%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    box-sizing: border-box;
 }
